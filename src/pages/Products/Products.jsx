@@ -1,5 +1,11 @@
+import { ProductCard } from "../../components";
+
 function Products() {
-  return <div>Products</div>;
+  return (
+    <div>
+      <ProductCard />
+    </div>
+  );
 }
 
 export default Products;
