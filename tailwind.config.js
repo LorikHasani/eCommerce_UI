@@ -9,6 +9,7 @@ export default {
         secondaryColor: "#2E2E2E",
         bgProductCard: "#F6F6F6",
         bgSmallCard: "#EDEDED",
+        headerInputBg: "#f5f5f5;",
         textFooter: "#CFCFCF",
         primaryHtmlColor: "#f2f5f7",
         green1: "#1CEF83",
@@ -59,5 +60,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: ["@tailwindcss/forms"],
 };
