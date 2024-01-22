@@ -3,7 +3,7 @@ import { iphone14 } from "../../assets/img";
 
 function ProductCard() {
   return (
-    <div className="w-[268px] min-w-[200px] bg-bgProductCard flex flex-col justify-center items-center gap-4 py-4 px-5 rounded-lg text-primaryBlack">
+    <div className="w-[250px] min-w-[200px] bg-bgProductCard flex flex-col justify-center items-center gap-4 py-4 px-5 rounded-lg text-primaryBlack shadow-sm hover:shadow-md transition-shadow duration-300">
       <div className="flex justify-end ml-auto">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,12 @@ function ProductCard() {
         </div>
         <Button
           size={"large"}
-          style={{ color: "white", background: "black", fontSize: "14px" }}
+          style={{
+            color: "white",
+            background: "black",
+            fontSize: "14px",
+            alignItems: "center",
+          }}
         >
           Buy Now
         </Button>

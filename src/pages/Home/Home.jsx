@@ -1,5 +1,13 @@
+import { Banner, Category, ProductsSection } from "../../components";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Banner />
+      <Category />
+      <ProductsSection />
+    </>
+  );
 }
 
 export default Home;
