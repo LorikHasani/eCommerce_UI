@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { logo } from "../../assets/img";
+import Logo from "../Logo/Logo";
 
 function Header() {
   const navigate = useNavigate();
@@ -8,7 +8,7 @@ function Header() {
     <>
       <header className="container flex items-center gap-[32px] mx-auto py-[16px]">
         <span>
-          <img src={logo} alt="" />
+          <Logo />
         </span>
 
         <div

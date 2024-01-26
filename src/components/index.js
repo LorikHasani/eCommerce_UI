@@ -12,8 +12,13 @@ import BestSeller from "./ProductsSection/BestSeller/BestSeller";
 import NewArrival from "./ProductsSection/NewArrival/NewArrival";
 import FeaturedProducts from "./ProductsSection/FeaturedProducts/FeaturedProducts";
 import ProductsSection from "./ProductsSection/ProductsSection";
-
+import ButtonOutline from "./Buttons/ButtonOutline";
+import ProductBanner from "./Banner/ProductBanner/ProductBanner";
+import BannersSection from "./BannersSection/BannersSection";
 export {
+  BannersSection,
+  ProductBanner,
+  ButtonOutline,
   ProductsSection,
   NewArrival,
   FeaturedProducts,

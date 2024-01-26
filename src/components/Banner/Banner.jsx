@@ -1,4 +1,5 @@
 import { IphoneBanner } from "../../assets/img";
+import ButtonOutline from "../Buttons/ButtonOutline";
 
 function Banner() {
   return (
@@ -20,12 +21,13 @@ function Banner() {
             </h4>
           </div>
           <div>
-            <button
-              type="submit"
-              className="flex  py-4 px-14 justify-center rounded-md bg-transparent border-2 border-primaryWhite  text-sm font-semibold leading-6 text-white shadow-sm hover:bg-secondaryColor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            <ButtonOutline
+              className={
+                "flex  py-4 px-14 justify-center rounded-md bg-transparent border-2 border-primaryWhite  font-semibold leading-6 text-white  hover:bg-secondaryColor "
+              }
             >
               Shop Now
-            </button>
+            </ButtonOutline>
           </div>
         </div>
         <div className="flex flex-col justify-end items-center flex-shrink-0 w-[406px] pt-[73px]">

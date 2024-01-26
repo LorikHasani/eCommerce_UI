@@ -1,4 +1,9 @@
-import { Banner, Category, ProductsSection } from "../../components";
+import {
+  Banner,
+  BannersSection,
+  Category,
+  ProductsSection,
+} from "../../components";
 
 function Home() {
   return (
@@ -6,6 +11,7 @@ function Home() {
       <Banner />
       <Category />
       <ProductsSection />
+      <BannersSection />
     </>
   );
 }
