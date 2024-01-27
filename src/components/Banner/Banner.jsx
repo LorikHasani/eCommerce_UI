@@ -21,11 +21,7 @@ function Banner() {
             </h4>
           </div>
           <div>
-            <ButtonOutline
-              className={
-                "flex  py-4 px-14 justify-center rounded-md bg-transparent border-2 border-primaryWhite  font-semibold leading-6 text-white  hover:bg-secondaryColor "
-              }
-            >
+            <ButtonOutline className={" border-primaryWhite text-white"}>
               Shop Now
             </ButtonOutline>
           </div>

@@ -3,12 +3,15 @@ import Logo from "../Logo/Logo";
 function Footer() {
   return (
     <footer className="flex items-end w-full text-textFooter bg-primaryBlack body-font">
-      <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
-        <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
-          <a className="flex items-center justify-center font-medium text-textFooter title-font md:justify-start">
-            <Logo />
-          </a>
-          <p className="mt-2 text-sm text-textFooter">Design, Code and Ship!</p>
+      <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap lg:gap-6">
+        <div className="flex-shrink-0 w-auto mx-auto text-center md:mx-0 md:text-left">
+          <a className="flex items-center justify-center font-medium text-textFooter title-font md:justify-start"></a>
+          <p className="mt-2 text-sm text-textFooter">LOGO</p>
+          <p>
+            We are a residential interior design firm located in Portland. Our{" "}
+            <br />
+            boutique-studio offers more than
+          </p>
           <div className="mt-4">
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
               <a className="text-textFooter cursor-pointer hover:text-textFooter">
@@ -69,7 +72,7 @@ function Footer() {
             </span>
           </div>
         </div>
-        <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+        <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left lg:justify-between">
           <div className="w-full px-4 lg:w-1/4 md:w-1/2">
             <h2 className="mb-3 text-sm font-medium tracking-widest text-textFooter uppercase title-font">
               About
@@ -88,50 +91,6 @@ function Footer() {
               <li className="mt-3">
                 <a className="text-textFooter cursor-pointer hover:text-textFooter">
                   Blog
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h2 className="mb-3 text-sm font-medium tracking-widest text-textFooter uppercase title-font">
-              Support
-            </h2>
-            <nav className="mb-10 list-none">
-              <li className="mt-3">
-                <a className="text-textFooter cursor-pointer hover:text-textFooter">
-                  Contact Support
-                </a>
-              </li>
-              <li className="mt-3">
-                <a className="text-textFooter cursor-pointer hover:text-textFooter">
-                  Help Resources
-                </a>
-              </li>
-              <li className="mt-3">
-                <a className="text-textFooter cursor-pointer hover:text-textFooter">
-                  Release Updates
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h2 className="mb-3 text-sm font-medium tracking-widest text-textFooter uppercase title-font">
-              Platform
-            </h2>
-            <nav className="mb-10 list-none">
-              <li className="mt-3">
-                <a className="text-textFooter cursor-pointer hover:text-textFooter">
-                  Terms &amp; Privacy
-                </a>
-              </li>
-              <li className="mt-3">
-                <a className="text-textFooter cursor-pointer hover:text-textFooter">
-                  Pricing
-                </a>
-              </li>
-              <li className="mt-3">
-                <a className="text-textFooter cursor-pointer hover:text-textFooter">
-                  FAQ
                 </a>
               </li>
             </nav>

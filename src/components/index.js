@@ -15,7 +15,11 @@ import ProductsSection from "./ProductsSection/ProductsSection";
 import ButtonOutline from "./Buttons/ButtonOutline";
 import ProductBanner from "./Banner/ProductBanner/ProductBanner";
 import BannersSection from "./BannersSection/BannersSection";
+import DiscountSection from "./DiscountSection/DiscountSection";
+import SecondBanner from "./Banner/SecondBanner/SecondBanner";
 export {
+  SecondBanner,
+  DiscountSection,
   BannersSection,
   ProductBanner,
   ButtonOutline,
