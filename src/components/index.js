@@ -18,7 +18,10 @@ import DiscountSection from "./DiscountSection/DiscountSection";
 import SecondBanner from "./Banner/SecondBanner/SecondBanner";
 import Filters from "./Filters/Filters";
 import FilterAccording from "./Filters/FilterAccording/FilterAccording";
+import Pagination from "./Pagination/Pagination";
+
 export {
+  Pagination,
   FilterAccording,
   Filters,
   SecondBanner,
