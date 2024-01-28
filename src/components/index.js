@@ -2,7 +2,6 @@ import Logo from "./Logo/Logo";
 import CategoryCard from "./Category/CategoryCard/CategoryCard";
 import DetailsCard from "./Category/CategoryCard/DetailsCard";
 import Category from "./Category/Category";
-import PriceSlider from "./Filters/PriceSlider";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import ProductCard from "./ProductCard/ProductCard";
@@ -17,7 +16,11 @@ import ProductBanner from "./Banner/ProductBanner/ProductBanner";
 import BannersSection from "./BannersSection/BannersSection";
 import DiscountSection from "./DiscountSection/DiscountSection";
 import SecondBanner from "./Banner/SecondBanner/SecondBanner";
+import Filters from "./Filters/Filters";
+import FilterAccording from "./Filters/FilterAccording/FilterAccording";
 export {
+  FilterAccording,
+  Filters,
   SecondBanner,
   DiscountSection,
   BannersSection,
@@ -33,7 +36,6 @@ export {
   Logo,
   CategoryCard,
   DetailsCard,
-  PriceSlider,
   Footer,
   Header,
   ProductCard,
