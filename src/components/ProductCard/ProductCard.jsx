@@ -1,9 +1,13 @@
 import { Button } from "antd";
 import { iphone14 } from "../../assets/img";
+import { Link } from "react-router-dom";
 
 function ProductCard({ img, desc, price }) {
   return (
-    <div className="w-[auto] min-w-[200px] bg-bgProductCard flex flex-col justify-center items-center gap-4 py-4 px-5 rounded-lg text-primaryBlack shadow-sm hover:shadow-md transition-shadow duration-300">
+    <Link
+      to={"/products/:121212"}
+      className="w-[auto] min-w-[200px] bg-bgProductCard flex flex-col justify-center items-center gap-4 py-4 px-5 rounded-lg text-primaryBlack shadow-sm hover:shadow-md transition-shadow duration-300"
+    >
       <div className="flex justify-end ml-auto">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +46,7 @@ function ProductCard({ img, desc, price }) {
           Buy Now
         </Button>
       </div>
-    </div>
+    </Link>
   );
 }
 

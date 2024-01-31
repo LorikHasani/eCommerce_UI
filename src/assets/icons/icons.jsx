@@ -1,11 +1,6 @@
 import React from "react";
 
-export function IphoneIcon({
-  width,
-  height,
-  stroke = "#000",
-  fill = { fill },
-}) {
+export function IphoneIcon({ width, height, stroke = "#000", fill = "" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
