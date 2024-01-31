@@ -20,7 +20,7 @@ export default {
         green4: "#A4F9CD",
         green5: "#DDFDEC",
         orange1: "#FFA45C",
-        orangedark1: "#E59454",
+        orangedark1: "#E59454", 
         orange1_20: "#FFA45C33",
         favorite_orange: "#FFA722",
         orange2: "#FFB67D",

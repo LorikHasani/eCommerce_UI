@@ -1,12 +1,17 @@
 import React from "react";
 
-export function IphoneIcon({ width, height, stroke = "#000" }) {
+export function IphoneIcon({
+  width,
+  height,
+  stroke = "#000",
+  fill = { fill },
+}) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width={width}
       height={height}
-      fill="none"
+      fill={fill}
       viewBox="0 0 48 48"
     >
       <g stroke={stroke} clipPath="url(#clip0_337_2235)">

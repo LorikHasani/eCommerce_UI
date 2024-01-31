@@ -1,6 +1,5 @@
 import Logo from "./Logo/Logo";
 import CategoryCard from "./Category/CategoryCard/CategoryCard";
-import DetailsCard from "./Category/CategoryCard/DetailsCard";
 import Category from "./Category/Category";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
@@ -19,8 +18,16 @@ import SecondBanner from "./Banner/SecondBanner/SecondBanner";
 import Filters from "./Filters/Filters";
 import FilterAccording from "./Filters/FilterAccording/FilterAccording";
 import Pagination from "./Pagination/Pagination";
+import DetailCard from "./DetailCard/DetailCard";
+import ProductDetailRight from "./ProductDetail/ProductDetailRight";
+import ProductDetailLeft from "./ProductDetail/ProductDetailLeft";
+import TabsDetail from "./DetailCard/TabsDetail";
 
 export {
+  TabsDetail,
+  ProductDetailLeft,
+  ProductDetailRight,
+  DetailCard,
   Pagination,
   FilterAccording,
   Filters,
@@ -38,7 +45,6 @@ export {
   Banner,
   Logo,
   CategoryCard,
-  DetailsCard,
   Footer,
   Header,
   ProductCard,
