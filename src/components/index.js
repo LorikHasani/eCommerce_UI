@@ -24,8 +24,10 @@ import ProductDetailLeft from "./ProductDetail/ProductDetailLeft";
 import TabsDetail from "./DetailCard/TabsDetail";
 import MoreDetailsProduct from "./MoreDetailsProduct/MoreDetailsProduct";
 import ProductDetail from "./ProductDetail/ProductDetail";
+import ShoppingCartSection from "./ShopingCartSection/ShoppingCartSection";
 
 export {
+  ShoppingCartSection,
   ProductDetail,
   MoreDetailsProduct,
   TabsDetail,
