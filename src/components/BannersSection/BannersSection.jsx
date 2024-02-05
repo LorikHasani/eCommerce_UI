@@ -3,7 +3,7 @@ import ProductBanner from "../Banner/ProductBanner/ProductBanner";
 
 function BannerSection() {
   return (
-    <div className="flex  pb-20">
+    <div className="flex  ">
       <ProductBanner
         classNameImg="relative top-0 left-[71px]"
         color="primaryWhite"

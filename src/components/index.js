@@ -22,8 +22,12 @@ import DetailCard from "./DetailCard/DetailCard";
 import ProductDetailRight from "./ProductDetail/ProductDetailRight";
 import ProductDetailLeft from "./ProductDetail/ProductDetailLeft";
 import TabsDetail from "./DetailCard/TabsDetail";
+import MoreDetailsProduct from "./MoreDetailsProduct/MoreDetailsProduct";
+import ProductDetail from "./ProductDetail/ProductDetail";
 
 export {
+  ProductDetail,
+  MoreDetailsProduct,
   TabsDetail,
   ProductDetailLeft,
   ProductDetailRight,

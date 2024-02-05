@@ -15,7 +15,7 @@ function Home() {
       <Category />
       <ProductsSection />
       <BannersSection />
-      <DiscountSection />
+      <DiscountSection title={"Discounts up to -50%"} />
       <SecondBanner
         titleText={"Big Summer Sale"}
         descText={"Commodo fames vitae vitae leo mauris in. Eu consequat."}

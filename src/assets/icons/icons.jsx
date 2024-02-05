@@ -1,6 +1,6 @@
 import React from "react";
 
-export function IphoneIcon({ width, height, stroke = "#000", fill = "" }) {
+export function IphoneIcon({ width, height, stroke = "#000", fill = "none" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -216,6 +216,23 @@ export function RightArrow({ width, height, fill = "#000" }) {
       <path
         fill={fill}
         d="M10.707 4.349c.265-.001.52.105.706.294l10.651 10.682a1 1 0 01-.002 1.414L11.38 27.389a1 1 0 01-1.411-1.415l9.974-9.945-9.945-9.974a1 1 0 01.709-1.706z"
+      ></path>
+    </svg>
+  );
+}
+
+export function Delivery({ width, height, fill = "#797979" }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={width}
+      height={height}
+      fill={fill}
+      viewBox="0 0 20 16"
+    >
+      <path
+        fill={fill}
+        d="M19.47 7.185l-1.03-1.43a2.5 2.5 0 00-2.03-1.05h-4.38v-2.14a2.5 2.5 0 00-2.5-2.5H2.56a2.507 2.507 0 00-2.5 2.5v9.94a1.5 1.5 0 001.5 1.5h1.22a2.242 2.242 0 004.44 0h5.56a2.242 2.242 0 004.44 0h1.22a1.5 1.5 0 001.5-1.5v-3.87a2.508 2.508 0 00-.47-1.45zM5 14.935a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm6.03-1.93H7.15a2.257 2.257 0 00-4.3 0H1.56a.5.5 0 01-.5-.5v-9.94a1.5 1.5 0 011.5-1.5h6.97a1.5 1.5 0 011.5 1.5v10.44zm3.97 1.93a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm3.94-2.43a.5.5 0 01-.5.5h-1.29a2.256 2.256 0 00-4.3 0h-.82v-7.3h4.38a1.516 1.516 0 011.22.63l1.03 1.43c.18.255.278.558.28.87v3.87z"
       ></path>
     </svg>
   );

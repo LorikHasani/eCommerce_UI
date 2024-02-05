@@ -83,6 +83,29 @@ function ProductDetailRight() {
           Add to Card
         </ButtonOutline>
       </div>
+      <div className="flex justify-between">
+        <div className="flex items-center gap-4 ">
+          <i class="uil uil-truck px-6 py-4 text-[22px] bg-[#F4F4F4] text-[#717171] rounded-xl"></i>
+          <div className="flex flex-col text-[16px]">
+            <span className="text-[#717171] font-semibold">Free Delivery</span>
+            <span className="text-primaryBlack font-semibold">1-2 day</span>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 ">
+          <i class="uil uil-store px-6 py-4 text-[22px] bg-[#F4F4F4] text-[#717171] rounded-xl"></i>
+          <div className="flex flex-col text-[16px]">
+            <span className="text-[#717171] font-semibold">In Stock</span>
+            <span className="text-primaryBlack font-semibold">Today</span>
+          </div>
+        </div>
+        <div className="flex items-center gap-4 ">
+          <i class="uil uil-check-circle px-6 py-4 text-[22px] bg-[#F4F4F4] text-[#717171] rounded-xl"></i>
+          <div className="flex flex-col text-[16px]">
+            <span className="text-[#717171] font-semibold">Guaranteed</span>
+            <span className="text-primaryBlack font-semibold">1 year</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
