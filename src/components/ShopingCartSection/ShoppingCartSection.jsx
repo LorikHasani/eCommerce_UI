@@ -163,12 +163,15 @@ function ShoppingCartSection() {
             </span>
           </div>
         </div>
-        <div id="summary" className="w-[40%] border py-5 px-10 rounded-md">
+        <div
+          id="summary"
+          className="w-[40%] border py-5 px-10 rounded-md flex flex-col"
+        >
           <h1 className="font-semibold text-2xl  pb-4">Order Summary</h1>
-          <div className="flex justify-between mt-10 mb-5">
+          {/* <div className="flex justify-between mt-10 mb-5">
             <span className="font-semibold text-sm uppercase">Items 3</span>
             <span className="font-semibold text-sm">590$</span>
-          </div>
+          </div> */}
           <div>
             <label className=" inline-block mb-1 text-[14px]">
               Your bonus card code
@@ -181,18 +184,20 @@ function ShoppingCartSection() {
             </label>
             <Input type="text" placeholder="Code" />
           </div>
-          <ButtonOutline className=" text-sm text-black !py-1 px-8   border-primaryBlack">
-            Apply
-          </ButtonOutline>
+          <div>
+            <ButtonOutline className=" text-sm text-black !py-1 px-8   border-primaryBlack">
+              Apply
+            </ButtonOutline>
+          </div>
           <div className="border-t mt-8">
-            <div className="flex font-semibold justify-between py-6 text-sm uppercase">
+            <div className="flex font-semibold justify-between py-6 text-sm ">
               <span>Total cost</span>
               <span>$600</span>
             </div>
-            <ButtonOutline className="bg-primaryBlack  font-semibold text-white  w-full text-[16px] !py-3">
-              Checkout
-            </ButtonOutline>
           </div>
+          <ButtonOutline className="bg-primaryBlack  font-semibold text-white  w-full text-[16px] !py-3 mt-auto">
+            Checkout
+          </ButtonOutline>
         </div>
       </div>
     </div>
