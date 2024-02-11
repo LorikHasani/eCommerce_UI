@@ -1,34 +1,38 @@
+import { Input, Select } from "antd";
+import ButtonOutline from "../Buttons/ButtonOutline";
+import { iphone14 } from "../../assets/img";
+
 function ShoppingCartSection() {
+  const handleChange = (value) => {
+    console.log(`selected ${value}`);
+  };
+
   return (
     <div className=" py-20">
-      <div className="container mx-auto flex gap-28 ">
-        <div className="w-3/4">
-          <div className="flex justify-between border-b pb-8">
+      <div className="container mx-auto flex  ">
+        <div className="w-[60%]">
+          <div className="flex justify-between pb-4">
             <h1 className="font-semibold text-[24px]">Shopping Cart</h1>
-            <h2 className="font-semibold text-[24px]">3 Items</h2>
+            {/* <h2 className="font-semibold text-[24px]">3 Items</h2> */}
           </div>
           <div className="flex mt-10 mb-5">
             <h3 className="font-semibold text-gray-600 text-xs uppercase w-2/5">
               Product Details
             </h3>
-            <h3 className="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 text-center">
+            <h3 className="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 ">
               Quantity
             </h3>
-            <h3 className="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 text-center">
+            <h3 className="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 ">
               Price
             </h3>
-            <h3 className="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 text-center">
+            <h3 className="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 ">
               Total
             </h3>
           </div>
-          <div className="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
+          <div className="flex items-center hover:bg-gray-100   py-5">
             <div className="flex w-2/5">
               <div className="w-20">
-                <img
-                  className="h-24"
-                  src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z"
-                  alt=""
-                />
+                <img className="h-24" src={iphone14} alt="" />
               </div>
               <div className="flex flex-col justify-between ml-4 flex-grow">
                 <span className="font-bold text-sm">Iphone 6S</span>
@@ -70,14 +74,10 @@ function ShoppingCartSection() {
             </span>
           </div>
 
-          <div className="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
+          <div className="flex items-center hover:bg-gray-100   py-5">
             <div className="flex w-2/5">
               <div className="w-20">
-                <img
-                  className="h-24"
-                  src="https://drive.google.com/uc?id=10ht6a9IR3K2i1j0rHofp9-Oubl1Chraw"
-                  alt=""
-                />
+                <img className="h-24" src={iphone14} alt="" />
               </div>
               <div className="flex flex-col justify-between ml-4 flex-grow">
                 <span className="font-bold text-sm">Xiaomi Mi 20000mAh</span>
@@ -119,14 +119,10 @@ function ShoppingCartSection() {
             </span>
           </div>
 
-          <div className="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
+          <div className="flex items-center hover:bg-gray-100   py-5">
             <div className="flex w-2/5">
               <div className="w-20">
-                <img
-                  className="h-24"
-                  src="https://drive.google.com/uc?id=1vXhvO9HoljNolvAXLwtw_qX3WNZ0m75v"
-                  alt=""
-                />
+                <img className="h-24" src={iphone14} alt="" />
               </div>
               <div className="flex flex-col justify-between ml-4 flex-grow">
                 <span className="font-bold text-sm">Airpods</span>
@@ -166,61 +162,36 @@ function ShoppingCartSection() {
               $150.00
             </span>
           </div>
-
-          <a
-            href="#"
-            className="flex font-semibold text-indigo-600 text-sm mt-10"
-          >
-            <svg
-              className="fill-current mr-2 text-indigo-600 w-4"
-              viewBox="0 0 448 512"
-            >
-              <path d="M134.059 296H436c6.627 0 12-5.373 12-12v-56c0-6.627-5.373-12-12-12H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296z" />
-            </svg>
-            Continue Shopping
-          </a>
         </div>
-        <div id="summary" className="w-1/4 ">
-          <h1 className="font-semibold text-2xl border-b pb-8">
-            Order Summary
-          </h1>
+        <div id="summary" className="w-[40%] border py-5 px-10 rounded-md">
+          <h1 className="font-semibold text-2xl  pb-4">Order Summary</h1>
           <div className="flex justify-between mt-10 mb-5">
             <span className="font-semibold text-sm uppercase">Items 3</span>
             <span className="font-semibold text-sm">590$</span>
           </div>
           <div>
-            <label className="font-medium inline-block mb-3 text-sm uppercase">
-              Shipping
+            <label className=" inline-block mb-1 text-[14px]">
+              Your bonus card code
             </label>
-            <select className="block p-2 text-gray-600 w-full text-sm">
-              <option>Standard shipping - $10.00</option>
-            </select>
+            <Input type="text" placeholder="Enter card number" />
           </div>
-          <div className="py-10">
-            <label
-              for="promo"
-              className="font-semibold inline-block mb-3 text-sm uppercase"
-            >
+          <div className="py-5">
+            <label for="promo" className=" inline-block mb-1 text-[14px]">
               Promo Code
             </label>
-            <input
-              type="text"
-              id="promo"
-              placeholder="Enter your code"
-              className="p-2 text-sm w-full"
-            />
+            <Input type="text" placeholder="Code" />
           </div>
-          <button className="bg-red-500 hover:bg-red-600 px-5 py-2 text-sm text-white uppercase">
+          <ButtonOutline className=" text-sm text-black !py-1 px-8   border-primaryBlack">
             Apply
-          </button>
+          </ButtonOutline>
           <div className="border-t mt-8">
             <div className="flex font-semibold justify-between py-6 text-sm uppercase">
               <span>Total cost</span>
               <span>$600</span>
             </div>
-            <button className="bg-indigo-500 font-semibold hover:bg-indigo-600 py-3 text-sm text-white uppercase w-full">
+            <ButtonOutline className="bg-primaryBlack  font-semibold text-white  w-full text-[16px] !py-3">
               Checkout
-            </button>
+            </ButtonOutline>
           </div>
         </div>
       </div>
